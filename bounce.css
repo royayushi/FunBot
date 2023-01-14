@@ -5,7 +5,8 @@ body {
     align-items: center;
     justify-content: center;
     background-color: aqua;
-    /*background: url("assets\\th3.png");*/
+    background: url("assets\\th3.png");
+    background-size: 1600px;
  }
 
  h1{
