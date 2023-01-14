@@ -6,9 +6,9 @@
   box-sizing: border-box;
   font-family: 'Work Sans', sans-serif;
 }
-html{
+/*html{
     height: 100%;
-}
+}*/
 h1{
     margin-top: 70px;
 }
@@ -24,7 +24,7 @@ a{
     background-color: darkviolet;
     color: white;
     border-radius: 25px;
-    margin-top: 25px;
+    margin-top: 80px;
     margin-bottom: 80px;
     display: inline-block;
 }
@@ -44,8 +44,8 @@ body{
   align-items: center;
   justify-content: center;
   background: url("assets\\th3.png");
-  background-size: cover;
-  height: 100%;
+  background-size: 1700px;
+  /*height: 100%;*/
   position: relative;
 }
 ::selection{
