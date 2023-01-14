@@ -1,0 +1,48 @@
+body {
+    height: 100%;
+    width: 100%;
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    /*background: url("assets\\th3.png");*/
+ }
+
+ h1{
+  margin-top: 70px;
+}
+
+  
+  #mycanvas {
+    background-color: black;
+    margin-top: 10rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 32%;
+    /*content: "";
+    position: relative;
+    display: block;*/
+    
+  }
+  .back a{
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background-color: darkviolet;
+    color: white;
+    border-radius: 25px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 100px;
+    display: inline-block;
+}
+a:hover{
+    opacity: 0.8;
+}
+.back{
+    text-align: center;
+  
+}
+    
