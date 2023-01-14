@@ -1,10 +1,16 @@
 /* Import Google Font - Work Sans */
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Work Sans', sans-serif;
+}
+h1{
+    margin-top: 200px;
+}
+.i-colour{
+    color: darkviolet;
 }
 .time,
 .flips{
@@ -33,9 +39,9 @@ body{
     bottom: 0;
     backdrop-filter: blur(10px);
     box-shadow: 0 0 35px black;
-    padding-top: 77px;
+    padding-top: 71px;
     padding-bottom: 40px;
-    padding-left: 46px;
+    padding-left: 38px;
     padding-right: 30px;
 }
 .cards, .card, .view, .details, .time, .flips{
@@ -44,8 +50,8 @@ body{
   justify-content: center;
 }
 .cards{
-  height: 350px;
-  width: 350px;
+  height: 370px;
+  width: 370px;
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -117,8 +123,9 @@ body{
 }
 .details p{
   font-size: 18px;
-  height: 17px;
+  height: 25px;
   padding-right: 18px;
+  margin-top: 16px;
   border-right: 1px solid #ccc;
 }
 .details p span{
@@ -130,16 +137,16 @@ body{
 .details button{
   cursor: pointer;
   font-size: 14px;
-  color: #6563ff;
+  color: darkviolet;
   border-radius: 4px;
   padding: 4px 11px;
   background: #fff;
-  border: 2px solid #6563ff;
+  border: 2px solid darkviolet;
   transition: 0.3s ease;
 }
 .details button:hover{
   color: #fff;
-  background: #6563ff;
+  background: darkviolet;
 }
 
 @media screen and (max-width: 700px) {
